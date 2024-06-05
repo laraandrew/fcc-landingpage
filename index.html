@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LensByLara - Hire me!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./stylesheet.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <section id="header-left">
+            <img id="header-img" src="./Lara_Logo.png" alt="LensByLara Logo">
+            <h1>Lara Photography</h1>
+        </section>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#Story">Story</a>
+            <a class="nav-link" href="#Services">Services</a>
+            <a class="nav-link" href="#Video">Video</a>
+            <a class="nav-link" href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-doc">
+        <section class="main-section" id="Story">
+            <header>Story</header>
+            <p>My name is Andrew and I was born and raised in Los Angeles.</p>
+            <p>All throughout college (2020-2024), I took pictures of places I visited and events I attended.</p>
+            <p>In my senior year, while studying abroad in Mexico, I decided to take it seriously.</p>
+            <p>Since then, I started a photography Instagram account with over 20 posts to date.</p>
+            <p>From the very beginning, I didn't want to be just another photographer.</p>
+            <p>I wanted to create moments as much as capture them.</p>
+        </section>
+
+        <section class="main-section" id="Services">
+            <header>Services & Pricing</header>
+            <p id="pricing-caption">All prices include processing, review and up to 10 personally edited photos</p>
+            <ul class="service-list"> 
+                <li class="pricing-item"><img src="./wedding-image.png" alt="Picture of a couple at their wedding with a pink theme" class="pricing-img"><br>Wedding Photography:<br>Packages starting at $2000</li>
+                <li class="pricing-item"><img src="./portrait-image.png" alt="Portrait photo of man in a wheatfield" class="pricing-img"><br>Portrait Photography:<br>$150 per hour</li>
+                <li class="pricing-item"><img src="./event-image.png" alt="Photo of a college graduate celebrating with her family" class="pricing-img"><br>Event Photography:<br>$125 per hour </li>
+            </ul>
+        </section>
+
+        <section class="main-section" id="Video">
+            <header>Watch Our Work</header>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section class="main-section" id="Contact">
+            <header>Contact</header>
+            <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Enter your email" required>
+                <label for="phone">Phone Number</label>
+                <input id="phone" type="tel" placeholder="(123) 456-7890" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
