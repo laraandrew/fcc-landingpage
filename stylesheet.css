@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
   background-color: #D9DBBC;
   color: #19323C;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 #header {
@@ -24,8 +25,15 @@ body {
   width: 100%;
   z-index: 1000; 
 }
+@media (width <= 400px) {
+  #header {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 
-#navbar {
+
+#nav-bar {
   display: flex;
   flex: auto;
   align-items: center;
@@ -91,7 +99,7 @@ body {
 
 #Story{
   margin-bottom: 1.5em;
-  line-height: 1.6;
+  line-height: 0;
 }
 
 .service-list {
